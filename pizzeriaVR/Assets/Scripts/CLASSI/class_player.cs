@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClassPlayer : MonoBehaviour
+public class ClassPlayer
 {
     // quante volte può sbagliare il player prima di perdere
     private int VitaMax; 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClassIngredients : MonoBehaviour
+public class ClassIngredients
 {
     // nome ingrediente
     private string NomeIngrediente;
@@ -22,16 +22,15 @@ public class ClassIngredients : MonoBehaviour
             IDIngrediente = value;
         }
     }
+}
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+public class ClassImpasto: ClassIngredients{
+    private string TipoImpasto;
+    public string tipo_impasto{
+        get {
+            return TipoImpasto;
+        } set {
+            TipoImpasto = value;
+        }
     }
 }
