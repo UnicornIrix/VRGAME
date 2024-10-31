@@ -23,6 +23,7 @@ public class ClassPlayer
             VitaPlayer = value;
         }
     }
+    // costruttore
     public ClassPlayer(int vita_massima){
         vita_max = vita_massima;
         vita_player = vita_massima;
