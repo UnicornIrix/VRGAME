@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_MoveSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 153982007679157697, guid: 6ffe699391af9e047956b2a8148cf82e, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503725, guid: 6ffe699391af9e047956b2a8148cf82e, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
