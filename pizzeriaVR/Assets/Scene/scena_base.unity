@@ -326,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: 6ffe699391af9e047956b2a8148cf82e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 152
+      value: 139
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: 6ffe699391af9e047956b2a8148cf82e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -485,7 +485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b498315fa9db0794da089c2e82e76657, type: 2}
+  - {fileID: 2100000, guid: ae29ac02d08992344b9095971167e1c6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -524,8 +524,8 @@ Transform:
   m_GameObject: {fileID: 1249617917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.4, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 150, y: 1, z: 150}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -641,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d42424a2e745482409df4eb3258982b8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -119
+      value: -70
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d42424a2e745482409df4eb3258982b8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -675,10 +675,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6284383940350025685, guid: d42424a2e745482409df4eb3258982b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e039692d13610c748beec89f80c264f8, type: 2}
     - target: {fileID: 919132149155446097, guid: d42424a2e745482409df4eb3258982b8, type: 3}
       propertyPath: m_Name
       value: pizzeria_interno
       objectReference: {fileID: 0}
+    - target: {fileID: 8006958694806783865, guid: d42424a2e745482409df4eb3258982b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c81baf8f49e44cb4e9aca351dcf9d262, type: 2}
+    - target: {fileID: 8424073627695423409, guid: d42424a2e745482409df4eb3258982b8, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: beaee69a5ee1bfb4290024f3a1f57e7f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
