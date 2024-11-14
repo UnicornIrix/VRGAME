@@ -42,4 +42,5 @@ public class pizza_stesa : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+
 }
