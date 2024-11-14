@@ -6,6 +6,16 @@ TagManager:
   tags:
   - mani
   - ciotola
+  - Anchor
+  - Salsa
+  - tavolo_pizza
+  - Patatine
+  - Funghi
+  - Olive
+  - Mozzarella
+  - Mestolo
+  - Salame
+  - Pizza
   layers:
   - Default
   - TransparentFX
